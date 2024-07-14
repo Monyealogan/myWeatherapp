@@ -12,6 +12,21 @@ body {
     border-radius: 16px;
 }
 
+@media (max-width: 600px) {
+    .weather-app {
+        max-width: 100%;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    .search-form-input {
+        width: 100%;
+    }
+
+    .weather-app-temperature {
+        font-size: 64px;
+    }
+}
 a {
     color:  rgb(27, 130, 248);
 }
