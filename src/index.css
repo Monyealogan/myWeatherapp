@@ -96,6 +96,11 @@ main {
     text-align: center;
     padding: 10px;
     flex: 1;
+    border-radius: 10px; 
+    border-color: black;
+    background-color: #fff; 
+    box-shadow: 5px 10px 20px rgba(65, 50, 100, 0.1); 
+    margin: 0 5px; 
 }
 
 .weather-forecast-date {
@@ -131,4 +136,3 @@ footer {
   font-weight: 500;
   color: rgba(0, 0, 0, 0.6);
 }
-
