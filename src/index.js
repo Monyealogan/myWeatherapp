@@ -88,7 +88,7 @@ function getForecast(city) {
     response.data.daily.forEach(function (day, index) {
         console.log('Day:',day);
         
-        if (index < 6 ) {
+        if (index < 5 ) {
       forecastHtml =
         forecastHtml +
         `
